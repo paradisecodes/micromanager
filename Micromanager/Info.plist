@@ -18,6 +18,10 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Micromanager records short voice notes so you can log how you spent your time by talking instead of tapping.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Micromanager transcribes your voice notes on-device to turn them into logged time blocks.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>InstrumentSans-Regular.ttf</string>

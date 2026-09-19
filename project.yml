@@ -21,6 +21,8 @@ targets:
           - InstrumentSans-Medium.ttf
           - InstrumentSans-SemiBold.ttf
           - InstrumentSans-Bold.ttf
+        NSMicrophoneUsageDescription: "Micromanager records short voice notes so you can log how you spent your time by talking instead of tapping."
+        NSSpeechRecognitionUsageDescription: "Micromanager transcribes your voice notes on-device to turn them into logged time blocks."
     settings:
       base:
         PRODUCT_NAME: Micromanager

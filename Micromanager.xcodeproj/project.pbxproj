@@ -10,6 +10,8 @@
 		0015E7B2D50588D889A8FAD2 /* TimeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC14AF29C620DDF3AD7F84 /* TimeCategory.swift */; };
 		0B81E65063F4DB86AE4D7350 /* TimeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16D295730A2C4E65C2C5E62 /* TimeBlock.swift */; };
 		196AD064644122AA270DB350 /* Audit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B6366E0DB958365367D46 /* Audit.swift */; };
+		24EABD79D71FB43672706F7E /* SpeechTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D40DF56506F2CB0A8E65D3 /* SpeechTranscriber.swift */; };
+		25F74B8D4E0CDD02EA53D84C /* ManualBlockFillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED428D612F19909B3B831A4C /* ManualBlockFillView.swift */; };
 		33A5F4AEE75EE6C5273728DB /* InstrumentSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E1334072CFC6736CEC18F7C /* InstrumentSans-Medium.ttf */; };
 		3DDD6DE9AB2560D50BEC15AD /* AuditStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E9ED30499B1C16E1447C02 /* AuditStore.swift */; };
 		527D30FF3840197E7DC71F6D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1A302DB63DAD2D61A8CAC /* CategoriesView.swift */; };
@@ -43,6 +45,7 @@
 		5A7908227B8ED768D955707D /* InstrumentSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Regular.ttf"; sourceTree = "<group>"; };
 		5E1334072CFC6736CEC18F7C /* InstrumentSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Medium.ttf"; sourceTree = "<group>"; };
 		61F452B6A0A86BFC1E7E29BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D40DF56506F2CB0A8E65D3 /* SpeechTranscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechTranscriber.swift; sourceTree = "<group>"; };
 		777F31937B51BA5F1846FF9F /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
 		8D1361348921A41B59BC510E /* InstrumentSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Bold.ttf"; sourceTree = "<group>"; };
 		9C745567601A99E97E5C41F1 /* ReportOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportOverviewView.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		C87CCFEB3EF197111E6B2289 /* Micromanager.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Micromanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D9B6B2F826CC429808074F /* DaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysView.swift; sourceTree = "<group>"; };
 		CCC0C4261B3CFC8E6CFF82A7 /* CatchUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchUpView.swift; sourceTree = "<group>"; };
+		ED428D612F19909B3B831A4C /* ManualBlockFillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualBlockFillView.swift; sourceTree = "<group>"; };
 		F720E9CB6B7D21DCE9F9DBBE /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,7 @@
 				E88A0D3763E17D17B58FBD10 /* Days */,
 				7422F65DF4C77A84693CF122 /* Onboarding */,
 				D2FAA4D4D0B8AF6722CC5D19 /* Report */,
+				CCA121A3FA1F0594B5F58A42 /* Shared */,
 				23769BC62096B8DEEC37BF7A /* Today */,
 			);
 			path = Views;
@@ -175,6 +180,14 @@
 			path = CheckIn;
 			sourceTree = "<group>";
 		};
+		CCA121A3FA1F0594B5F58A42 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED428D612F19909B3B831A4C /* ManualBlockFillView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		D2FAA4D4D0B8AF6722CC5D19 /* Report */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				B1E9ED30499B1C16E1447C02 /* AuditStore.swift */,
+				75D40DF56506F2CB0A8E65D3 /* SpeechTranscriber.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -296,10 +310,12 @@
 				581E5C43CE278BB0D9C16F33 /* CheckInView.swift in Sources */,
 				FB0F24D9A48CB90BE8B6835C /* DailyCheckIn.swift in Sources */,
 				AB1EB2D5D6433E3B42E58134 /* DaysView.swift in Sources */,
+				25F74B8D4E0CDD02EA53D84C /* ManualBlockFillView.swift in Sources */,
 				ACA98573CE64618E838F7439 /* MicromanagerApp.swift in Sources */,
 				8E36EE3412F3BFE148F2AA3F /* OnboardingView.swift in Sources */,
 				A25092E292CFF5ADA53BA4D8 /* ReportOverviewView.swift in Sources */,
 				A302BE8A092CBEAB216A8302 /* RootTabView.swift in Sources */,
+				24EABD79D71FB43672706F7E /* SpeechTranscriber.swift in Sources */,
 				568B2D2D2FBE525DB0EC337C /* Theme.swift in Sources */,
 				0B81E65063F4DB86AE4D7350 /* TimeBlock.swift in Sources */,
 				0015E7B2D50588D889A8FAD2 /* TimeCategory.swift in Sources */,
