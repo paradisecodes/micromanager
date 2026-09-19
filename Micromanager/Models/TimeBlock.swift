@@ -7,12 +7,14 @@ struct TimeBlock: Identifiable, Codable, Equatable {
     /// Index 0...95, where 0 = 00:00-00:15.
     var slotIndex: Int
     var categoryID: UUID?
+    var subcategoryID: UUID?
 
-    init(id: UUID = UUID(), date: Date, slotIndex: Int, categoryID: UUID? = nil) {
+    init(id: UUID = UUID(), date: Date, slotIndex: Int, categoryID: UUID? = nil, subcategoryID: UUID? = nil) {
         self.id = id
         self.date = date
         self.slotIndex = slotIndex
         self.categoryID = categoryID
+        self.subcategoryID = subcategoryID
     }
 
     var startTime: DateComponents {
