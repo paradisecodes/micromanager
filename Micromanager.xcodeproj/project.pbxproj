@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0015E7B2D50588D889A8FAD2 /* TimeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC14AF29C620DDF3AD7F84 /* TimeCategory.swift */; };
+		0B81E65063F4DB86AE4D7350 /* TimeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16D295730A2C4E65C2C5E62 /* TimeBlock.swift */; };
+		196AD064644122AA270DB350 /* Audit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38B6366E0DB958365367D46 /* Audit.swift */; };
+		37351B057F4F03172C041987 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C03A12944C953F6E143827 /* CaptureView.swift */; };
+		3DDD6DE9AB2560D50BEC15AD /* AuditStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E9ED30499B1C16E1447C02 /* AuditStore.swift */; };
+		527D30FF3840197E7DC71F6D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B1A302DB63DAD2D61A8CAC /* CategoriesView.swift */; };
+		581E5C43CE278BB0D9C16F33 /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720E9CB6B7D21DCE9F9DBBE /* CheckInView.swift */; };
+		5AEE0E736E27EFD14C0DC89F /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B48E0C96DED6376042517B /* ReportView.swift */; };
+		89D58397640B9F0C75FCD95F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F452B6A0A86BFC1E7E29BA /* Assets.xcassets */; };
+		A302BE8A092CBEAB216A8302 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777F31937B51BA5F1846FF9F /* RootTabView.swift */; };
+		ACA98573CE64618E838F7439 /* MicromanagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B6B1AA847A50AF8022B30 /* MicromanagerApp.swift */; };
+		FB0F24D9A48CB90BE8B6835C /* DailyCheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1887237B1BBAA5100AB85DBC /* DailyCheckIn.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06D6DAC518C2B76904968C3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1887237B1BBAA5100AB85DBC /* DailyCheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckIn.swift; sourceTree = "<group>"; };
+		41C03A12944C953F6E143827 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		51DC14AF29C620DDF3AD7F84 /* TimeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCategory.swift; sourceTree = "<group>"; };
+		61F452B6A0A86BFC1E7E29BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		777F31937B51BA5F1846FF9F /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A27B6B1AA847A50AF8022B30 /* MicromanagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicromanagerApp.swift; sourceTree = "<group>"; };
+		B16D295730A2C4E65C2C5E62 /* TimeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBlock.swift; sourceTree = "<group>"; };
+		B1B48E0C96DED6376042517B /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		B1E9ED30499B1C16E1447C02 /* AuditStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditStore.swift; sourceTree = "<group>"; };
+		B3B1A302DB63DAD2D61A8CAC /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		C38B6366E0DB958365367D46 /* Audit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audit.swift; sourceTree = "<group>"; };
+		C87CCFEB3EF197111E6B2289 /* Micromanager.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Micromanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720E9CB6B7D21DCE9F9DBBE /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01C2BABDF17717CC49D89446 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				41C03A12944C953F6E143827 /* CaptureView.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		3EEE430C5A6694BF6AF2F040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61F452B6A0A86BFC1E7E29BA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F6C3F2B9C28200381DD955A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				777F31937B51BA5F1846FF9F /* RootTabView.swift */,
+				01C2BABDF17717CC49D89446 /* Capture */,
+				7E3DAC0E2E95896969F98178 /* Categories */,
+				BFA398F5A27659D0C637DA29 /* CheckIn */,
+				D2FAA4D4D0B8AF6722CC5D19 /* Report */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53F9CCF2F3328CDE3AA1F94A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C38B6366E0DB958365367D46 /* Audit.swift */,
+				1887237B1BBAA5100AB85DBC /* DailyCheckIn.swift */,
+				B16D295730A2C4E65C2C5E62 /* TimeBlock.swift */,
+				51DC14AF29C620DDF3AD7F84 /* TimeCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A69E6BA5D964AB603AD2F14 /* Micromanager */ = {
+			isa = PBXGroup;
+			children = (
+				06D6DAC518C2B76904968C3C /* Info.plist */,
+				E0C7F6FF0A9DCF38F58F6015 /* App */,
+				53F9CCF2F3328CDE3AA1F94A /* Models */,
+				3EEE430C5A6694BF6AF2F040 /* Resources */,
+				FDC14F9A2F85B6C119515FE0 /* Services */,
+				4F6C3F2B9C28200381DD955A /* Views */,
+			);
+			path = Micromanager;
+			sourceTree = "<group>";
+		};
+		7E3DAC0E2E95896969F98178 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B3B1A302DB63DAD2D61A8CAC /* CategoriesView.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A15D85958E2E5336045E0A73 = {
+			isa = PBXGroup;
+			children = (
+				6A69E6BA5D964AB603AD2F14 /* Micromanager */,
+				A72DB5A88FE9B2FC3535A522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A72DB5A88FE9B2FC3535A522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C87CCFEB3EF197111E6B2289 /* Micromanager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA398F5A27659D0C637DA29 /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				F720E9CB6B7D21DCE9F9DBBE /* CheckInView.swift */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		D2FAA4D4D0B8AF6722CC5D19 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				B1B48E0C96DED6376042517B /* ReportView.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		E0C7F6FF0A9DCF38F58F6015 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A27B6B1AA847A50AF8022B30 /* MicromanagerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FDC14F9A2F85B6C119515FE0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1E9ED30499B1C16E1447C02 /* AuditStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		399D78699518453D6A4660AB /* Micromanager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45464A030C78E6B00CCEF292 /* Build configuration list for PBXNativeTarget "Micromanager" */;
+			buildPhases = (
+				1BEE83F1A435BB61586F1266 /* Sources */,
+				D2E861F0EB223F80314D7766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Micromanager;
+			packageProductDependencies = (
+			);
+			productName = Micromanager;
+			productReference = C87CCFEB3EF197111E6B2289 /* Micromanager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B356ED1029F81289B4FAAC4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 2B40BFA187FF9E3CD5B80271 /* Build configuration list for PBXProject "Micromanager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A15D85958E2E5336045E0A73;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A72DB5A88FE9B2FC3535A522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				399D78699518453D6A4660AB /* Micromanager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E861F0EB223F80314D7766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89D58397640B9F0C75FCD95F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BEE83F1A435BB61586F1266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196AD064644122AA270DB350 /* Audit.swift in Sources */,
+				3DDD6DE9AB2560D50BEC15AD /* AuditStore.swift in Sources */,
+				37351B057F4F03172C041987 /* CaptureView.swift in Sources */,
+				527D30FF3840197E7DC71F6D /* CategoriesView.swift in Sources */,
+				581E5C43CE278BB0D9C16F33 /* CheckInView.swift in Sources */,
+				FB0F24D9A48CB90BE8B6835C /* DailyCheckIn.swift in Sources */,
+				ACA98573CE64618E838F7439 /* MicromanagerApp.swift in Sources */,
+				5AEE0E736E27EFD14C0DC89F /* ReportView.swift in Sources */,
+				A302BE8A092CBEAB216A8302 /* RootTabView.swift in Sources */,
+				0B81E65063F4DB86AE4D7350 /* TimeBlock.swift in Sources */,
+				0015E7B2D50588D889A8FAD2 /* TimeCategory.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1BCF35C52B10D4358F5068DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = Micromanager/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradisecodes.micromanager;
+				PRODUCT_NAME = Micromanager;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		634C1F6B025E19F6C0D015A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6539879B61F32FF5B55DF76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC8360C36F86BA31444C2F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = Micromanager/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paradisecodes.micromanager;
+				PRODUCT_NAME = Micromanager;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B40BFA187FF9E3CD5B80271 /* Build configuration list for PBXProject "Micromanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6539879B61F32FF5B55DF76B /* Debug */,
+				634C1F6B025E19F6C0D015A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45464A030C78E6B00CCEF292 /* Build configuration list for PBXNativeTarget "Micromanager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC8360C36F86BA31444C2F59 /* Debug */,
+				1BCF35C52B10D4358F5068DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B356ED1029F81289B4FAAC4E /* Project object */;
+}

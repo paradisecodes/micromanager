@@ -1,0 +1,26 @@
+name: Micromanager
+options:
+  bundleIdPrefix: com.paradisecodes
+  deploymentTarget:
+    iOS: "18.0"
+
+targets:
+  Micromanager:
+    type: application
+    platform: iOS
+    sources:
+      - path: Micromanager
+    info:
+      path: Micromanager/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    settings:
+      base:
+        PRODUCT_NAME: Micromanager
+        PRODUCT_BUNDLE_IDENTIFIER: com.paradisecodes.micromanager
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: "1"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
