@@ -41,10 +41,12 @@ final class SpeechTranscriber {
 
         let session = AVAudioSession.sharedInstance()
         do {
-            try session.setCategory(.record, mode: .measurement, options: .duckOthers)
+            // .duckOthers is only valid with .playback/.playAndRecord/.multiRoute, not .record —
+            // passing it here throws and silently kills recording before it starts.
+            try session.setCategory(.record, mode: .measurement, options: [.allowBluetooth])
             try session.setActive(true, options: .notifyOthersOnDeactivation)
         } catch {
-            errorMessage = "Couldn't start the microphone."
+            errorMessage = "Couldn't start the microphone: \(error.localizedDescription)"
             return
         }
 
@@ -67,7 +69,7 @@ final class SpeechTranscriber {
         do {
             try audioEngine.start()
         } catch {
-            errorMessage = "Couldn't start the microphone."
+            errorMessage = "Couldn't start the microphone: \(error.localizedDescription)"
             recognitionRequest = nil
             return
         }
